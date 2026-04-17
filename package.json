@@ -1,13 +1,21 @@
 {
   "name": "conexion-terminal",
   "version": "1.0.0",
-  "description": "",
+  "description": "conexion terminal for ai api tools",
+  "keywords": [],
+  "homepage": "https://github.com/C3SC0-V4113/Conexion-Terminal#readme",
+  "bugs": {
+    "url": "https://github.com/C3SC0-V4113/Conexion-Terminal/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C3SC0-V4113/Conexion-Terminal.git"
+  },
+  "license": "ISC",
+  "author": "C3SC0-V4113",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  }
 }
