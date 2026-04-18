@@ -2,6 +2,7 @@ import "dotenv/config";
 import OpenAI from "openai";
 import { getTale } from "./tale.js";
 import { getStream } from "./stream.js";
+import { getChat } from "./chat.js";
 
 const apiKey = process.env.OPENAI_API_KEY;
 
@@ -20,4 +21,7 @@ if (!apiKey) {
 
   console.log("Now Stream");
   await getStream(client);
+
+  console.log("Now Chat");
+  await getChat(client);
 }
