@@ -1,6 +1,7 @@
 import "dotenv/config";
 import OpenAI from "openai";
 import { getTale } from "./tale.js";
+import { getStream } from "./stream.js";
 
 const apiKey = process.env.OPENAI_API_KEY;
 
@@ -16,4 +17,7 @@ if (!apiKey) {
 
   const tale = await getTale(client);
   console.log(tale);
+
+  console.log("Now Stream");
+  await getStream(client);
 }
